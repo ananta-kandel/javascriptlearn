@@ -1,5 +1,12 @@
 .margin-auto{
-    height: 100%;
     width: 50%;
     margin:auto;
+}
+
+.gd1{
+    grid-template-rows: 90px 1000px;
+}
+
+.h50{
+   height: 20%;
 }
