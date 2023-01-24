@@ -1,0 +1,16 @@
+/* *{
+    outline: 2px solid black;
+} */
+.bgcolorr{
+    background-color: #E3E6F3;
+}
+
+.sectionheight{
+    width: 100vw;
+    height: 10vh;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.63) ;
+}
+/* for hero section image  */
+#hero{
+  background-image:url("C:\Users\User\OneDrive\Documents\Flipcartclone\javascriptlearn\ecommerce\hero4.png");
+}
