@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    <div class="flex flex-col justify-center items-center h-96">
+     <h6 class="text-[2rem] m-2">Tips calculator</h6>
+     <p class="m-2">Please enter your amount of your bill:</p>
+     <div><label class="m-2">Rs.</label><input id="billamount" class="border" type= "text" id="fname" name="fname"></div>
+     <p class="m-2">How was your service?</p>
+     <div>
+        <label for="cars">Select the option:</label>
+           <select id ="dropdown" placeholder="Bill Amount" class="border" name="option" id="%">
+            <option value="initial"> Choose an Option</option>
+           <option value="0.35">35%-Amazing</option>
+           <option value="0.25">25%-Good</option>
+           <option value="0.2">20%-satisfactory</option>
+           <option value="0.15">15%-Bad</option>
+           <option value="0.1">10%-Disgusting</option>
+         </select>
+    </div>
+    <p class="m-3">How many people are sharing the bill?</p>
+    <input id="numberpeople" class="border" placeholder="Number of people" type= "text" id="fname" name="fname">
+    <button id="button" class="m-2 border">Submit</button>
+</div> 
+<div id="tips">
+</div>
+<script src="index.js"></script>
+</body>
+</html>
